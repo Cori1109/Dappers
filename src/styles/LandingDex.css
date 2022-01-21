@@ -1,0 +1,532 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topDiv {
+  display: flex;
+  margin: 64px 0 0 0;
+  width: 95%;
+  align-content: center;
+  justify-content: space-between;
+  color: #fffbfb;
+}
+
+.logoDiv,
+.signDiv {
+  display: flex;
+}
+
+.logoDiv:hover,
+.signDiv:hover {
+  color: #858b9b;
+  cursor: pointer;
+}
+
+.logoDiv img {
+  margin-right: 3px;
+}
+
+.signDiv img {
+  margin-right: 11px;
+}
+
+.welcomeDiv {
+  margin-top: 30px;
+  width: 95vw;
+  padding: 457px 0 52px 77px;
+  background-image: url("../assets/backgrounds/bg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5rem;
+}
+
+.welcomeInside {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+}
+
+.welcomeTitle {
+  font-family: "Roboto";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #f6f6f7;
+}
+
+.description {
+  margin: 19px 0;
+  color: #f6f6f7;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.builtStep {
+  display: flex;
+  padding: 66px 22px 81px 22px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.linkDiv {
+  display: flex;
+}
+
+.linkDiv a {
+  margin-right: 20px;
+}
+
+.linkDiv a:hover {
+  transform: scale(1.05);
+}
+
+.builtStep a {
+  margin: 1rem 0.5rem;
+}
+
+.builtStep a * {
+  width: 178px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 26px;
+  color: #fffbfb;
+}
+
+.dexCard {
+  background-image: url("../assets/icons/card-dex.png");
+  padding: 150px 0 0 44px;
+}
+
+.tokenCard {
+  background-image: url("../assets/icons/card-token.png");
+  padding: 150px 0 0 50px;
+}
+
+.liquidCard {
+  background-image: url("../assets/icons/card-liquid.png");
+  padding: 150px 0 0 48px;
+}
+
+.tradingCard {
+  background-image: url("../assets/icons/card-trading.png");
+  padding: 142px 0 0 54px;
+}
+
+.dexCard,
+.tokenCard,
+.liquidCard,
+.tradingCard {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 225px;
+  width: 240px;
+}
+
+.dexCard:hover,
+.tokenCard:hover,
+.liquidCard:hover,
+.tradingCard:hover {
+  -ms-transform: scaleY(1.02);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.builtDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+  padding-left: 48px;
+  justify-content: flex-end;
+  height: 470px;
+  width: 574px;
+  border-radius: 8px;
+  background-image: url("../assets/backgrounds/bg2.png");
+}
+
+.builtTitle {
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  max-width: 325px;
+  min-height: 88px;
+  color: #fffbfb;
+}
+
+.cardDiv p {
+  height: 23px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fffbfb;
+}
+
+.inbuiltDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 9px;
+}
+
+.builtRec {
+  /* Rectangle 30 */
+  width: 574px;
+  height: 130px;
+
+  background: #1e1f23;
+  border: 1px solid #3a3c40;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+}
+
+.builtImg {
+  width: 52px;
+  height: 52px;
+  margin-left: 43px;
+  margin-right: 43px;
+}
+
+.builtText {
+  max-width: 400px;
+}
+
+.subTitle {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fffbfb;
+}
+
+.subText {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #858b9b;
+}
+
+.communityDiv {
+  margin-top: 84px;
+  display: flex;
+  border-top: 1px solid #3a3c40;
+  border-bottom: 1px solid #3a3c40;
+}
+
+.incomDiv {
+  width: 40vw;
+}
+
+.commTitle {
+  margin-top: 61px;
+  max-width: 404px;
+  min-height: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: #fffbfb;
+}
+
+.commText {
+  margin-top: 16px;
+  max-width: 447px;
+  min-height: 88px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fffbfb;
+}
+
+.incomeDiv {
+  height: 254px;
+  border-radius: 8px;
+}
+
+.browseDiv {
+  margin-top: 90px;
+}
+
+.browseContent {
+  padding-top: 199px;
+  padding-left: 45px;
+  height: 314px;
+  width: 85vw;
+  background: url("../assets/backgrounds/bg4.png");
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.browseTitle {
+  max-width: 871px;
+  height: 21px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 26px;
+  /* or 81% */
+
+  color: #fffbfb;
+}
+
+.browseText {
+  margin-top: 20px;
+  max-width: 759px;
+  height: 72px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  color: #fffbfb;
+}
+
+.searchDiv {
+  margin-top: 34px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.searchInput {
+  padding-left: 25px;
+  width: 288px;
+  height: 45px;
+
+  background: #1e1f23;
+  border: 1px solid #3a3c40;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #858b9b;
+}
+
+.searchInput:hover {
+  background: #26282e;
+}
+
+.searchBtn {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 23px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  background: #1e1f23;
+  border: 1px solid #3a3c40;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #858b9b;
+}
+
+.searchBtn img {
+  margin-left: 10px;
+}
+
+.sitesDiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 86vw;
+  margin-top: 34px;
+}
+
+.sitesCard {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background: #1e1f23;
+  color: #fffbfb;
+}
+
+.builtRec:hover,
+.searchBtn:hover,
+.sitesCard:hover {
+  -ms-transform: scaleY(1.25);
+  transform: scale(1.02);
+  background: #26282e;
+  cursor: pointer;
+}
+
+.avatarCard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.badgeSpan {
+  border-radius: 6px;
+  height: fit-content;
+  padding: 5px 7px;
+  background-color: #000;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.sitesText {
+  margin-top: 15px;
+  font-family: "Roboto";
+  font-weight: 600;
+  width: 170px;
+}
+
+.sitesText p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #858b9b;
+}
+
+.futureDiv {
+  margin-top: 77px;
+  margin-bottom: 50px;
+  background-image: url("../assets/backgrounds/bg5.png");
+  background-size: cover;
+  background-repeat: round;
+  width: 86vw;
+  height: 260px;
+  padding-top: 66px;
+  padding-left: 74px;
+}
+
+.futureDiv:hover {
+  background-image: url("../assets/backgrounds/bg5-transparent.png");
+  transform: scale(1.01);
+}
+
+.futureTitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 28px;
+  color: #fffbfb;
+}
+
+.futureText {
+  margin-top: 15px;
+  max-width: 800px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fffbfb;
+}
+
+@media screen and (max-width: 760px) {
+  .welcomeDiv {
+    padding: 200px 20px 10px 20px;
+    width: 90vw;
+  }
+
+  .welcomeTitle {
+    line-height: 50px;
+  }
+
+  .builtStep {
+    justify-content: center;
+  }
+
+  .builtDiv {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardDiv {
+    padding-top: 250px;
+    width: auto;
+  }
+
+  .builtRec {
+    margin: 20px;
+    width: auto;
+  }
+
+  .builtImg {
+    margin: 0 20px;
+  }
+
+  .incomDiv {
+    margin: 10px 0;
+    width: auto;
+    background: url("../assets/backgrounds/bg3.png");
+    background-size: cover;
+    background-repeat: round;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .incomeDiv {
+    display: none;
+  }
+
+  .browseContent {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .browseContent div {
+    height: auto;
+  }
+
+  .searchDiv * {
+    margin: 10px;
+  }
+
+  .sitesDiv {
+    justify-content: center;
+  }
+
+  .futureDiv {
+    height: auto;
+    padding: 50px 20px;
+  }
+}

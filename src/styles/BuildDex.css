@@ -1,0 +1,250 @@
+.buildDex {
+  background: #14262b;
+  font-family: "Roboto";
+}
+
+.topBar {
+  display: flex;
+  height: 53px;
+  padding-left: 21px;
+  padding-right: 31px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #3a3c40;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.05);
+}
+
+.logo,
+.account {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fffbfb;
+}
+
+.account {
+  font-weight: 500;
+}
+
+.logo div,
+.account div {
+  margin-left: 10px;
+}
+
+.logo:hover,
+.account:hover {
+  color: #858b9b;
+  cursor: pointer;
+}
+
+.flexDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sideBar {
+  width: 236px;
+  border-right: 1px solid #3a3c40;
+}
+
+.sideContent {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 236px;
+  padding-left: 15px;
+  color: #fffbfb;
+}
+
+.sideContent p {
+  margin-left: 14px;
+}
+
+.buildMain {
+  padding: 4rem 45px 62px 42px;
+  width: 100%;
+}
+
+.launchImg {
+  padding-top: 186px;
+  padding-bottom: 40px;
+  padding-left: 54px;
+  background-image: url("../assets/backgrounds/bg-launch.png");
+  height: 295px;
+  opacity: 0.6;
+  border-radius: 8px;
+}
+
+.launchText {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 26px;
+  color: #99ffc2;
+}
+
+.launchSubText {
+  margin-top: 9px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #99ffc2;
+}
+
+.launchContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftDiv {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+}
+
+.launchDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.launchContent {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fffbfb;
+}
+
+.templateDiv {
+  margin: 10px 0;
+  padding: 28px 23px;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  border: 1px solid #3a3c40;
+  box-sizing: border-box;
+  background: #1e1f23;
+  color: #fffbfb;
+  border-radius: 8px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.templateDiv div {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.noPadding {
+  padding: 0;
+  margin: 0 !important;
+}
+
+.radioBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.themeDiv {
+  margin: 10px;
+  background-color: transparent;
+  color: #fffbfb;
+  border: none;
+}
+
+.themeDiv:active {
+  border-radius: 8px;
+  border: 0.1px solid #3a37377a;
+  border-bottom: 1px solid #767676;
+  border-right: 1px solid #767676;
+}
+
+.themeDiv span {
+  border-radius: 5px;
+}
+
+.themeDiv p {
+  margin: 0;
+}
+
+.chainDiv {
+  margin: 10px 0;
+  display: flex;
+  height: 24px;
+  min-width: 90px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 10px;
+  background: #1e1f23;
+  border: 1px solid #3a3c40;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.chainDiv p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #fffbfb;
+}
+
+.chainDiv div {
+  height: fit-content;
+}
+
+.selTheme {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.selTheme * {
+  margin: auto;
+}
+
+.subContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTxt {
+  margin-left: 6px;
+  height: 36px;
+  max-width: 100px;
+  padding-bottom: 8px;
+  color: #fff;
+  border: none;
+  border-bottom: 0.5px solid #c4c4c4;
+  background-color: transparent;
+}
+
+.inputTxt:focus-visible {
+  outline: none;
+}
+
+.rightDiv {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.rightDiv button {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid #3a3c40;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  background: #1e1f23;
+  color: #fffbfb;
+}
